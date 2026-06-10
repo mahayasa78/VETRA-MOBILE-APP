@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "770631372822",
+    "project_id": "vetra-app-98024",
+    "storage_bucket": "vetra-app-98024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770631372822:android:1d35433affaae0812fe537",
+        "android_client_info": {
+          "package_name": "com.example.vetra_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770631372822-4ef6i3mcnqjog793t45n88e87rjoj40v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vetra_app",
+            "certificate_hash": "48ab0e647781a600a3f1838e97b0fa710c2801bb"
+          }
+        },
+        {
+          "client_id": "770631372822-bn85r0s7daqf85pe7kaml2dhtklv3kua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCInYCdaQLijpkZqbzvEPkH6mdw4zhCW-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770631372822-bn85r0s7daqf85pe7kaml2dhtklv3kua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
