@@ -2,7 +2,10 @@ import 'dart:typed_data';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiService {
-  static const String _apiKey = "REMOVED_API_KEY";
+  // API key disimpan di file terpisah yang tidak di-push ke GitHub
+  // Buat file lib/config/api_keys.dart dan tambahkan:
+  // const String geminiApiKey = 'YOUR_API_KEY_HERE';
+  static const String _apiKey = String.fromEnvironment('GEMINI_API_KEY', defaultValue: '');
 
   static final List<Content> _systemHistory = [
     Content.text(
